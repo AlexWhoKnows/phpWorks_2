@@ -1,0 +1,36 @@
+<?php
+	$menu = array(
+		array('name' => 'Научная часть', 'title' => 'Научная часть', 'url' => '', 'parent' => '0', 'id' => '1', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Приветственное слово проректора', 'title' => 'Приветственное слово проректора', 'url' => 'privetstvennoe_slovo_prorektora', 'parent' => '1', 'id' => '119', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Структурные подразделения', 'title' => 'Структурные подразделения', 'url' => 'struct', 'parent' => '1', 'id' => '169', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Сотрудники', 'title' => 'Сотрудники', 'url' => 'person', 'parent' => '1', 'id' => '3', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Научно-технический совет', 'title' => 'Научно-технический совет', 'url' => 'nauchno_tehnicheskiy_sovet', 'parent' => '1', 'id' => '120', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Программа «5-100-2020»', 'title' => 'Программа «5-100-2020»', 'url' => '5_100_2020', 'parent' => '1', 'id' => '175', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Документы сотрудникам', 'title' => 'Документы сотрудникам', 'url' => 'http://www.spbstu.ru/university/organizational-documents/administration-catalogue/', 'parent' => '1', 'id' => '190', 'out' => '1', 'target' => '1', ),
+		array('name' => 'Документы сотрудникам', 'title' => 'Документы сотрудникам', 'url' => 'dokumentu_sotrudnikam', 'parent' => '20', 'id' => '164', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Наука', 'title' => 'Наука', 'url' => '', 'parent' => '0', 'id' => '177', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Список лабораторий', 'title' => 'Список лабораторий', 'url' => 'labs', 'parent' => '177', 'id' => '171', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Проекты', 'title' => 'Проекты', 'url' => 'scientific-projects', 'parent' => '177', 'id' => '174', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Интеллектуальная собственность', 'title' => 'Интеллектуальная собственность', 'url' => 'patents', 'parent' => '177', 'id' => '192', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Показатели результативности НИР', 'title' => 'Показатели результативности НИР', 'url' => 'pokazateli_rezultativnosti_nir', 'parent' => '177', 'id' => '125', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Достижения', 'title' => 'Достижения', 'url' => 'achievements', 'parent' => '177', 'id' => '157', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Публикации и издания', 'title' => 'Публикации и издания', 'url' => '', 'parent' => '0', 'id' => '178', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Управление периодических научных изданий', 'title' => 'Управление периодических научных изданий', 'url' => 'struct/upni', 'parent' => '178', 'id' => '176', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Периодические научные издания СПбПУ', 'title' => 'Периодические научные издания СПбПУ', 'url' => 'journals', 'parent' => '178', 'id' => '170', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Научные публикации', 'title' => 'Научные публикации', 'url' => 'nauchnue_publikacii', 'parent' => '178', 'id' => '131', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Конкурсы и гранты', 'title' => 'Конкурсы и гранты', 'url' => '', 'parent' => '0', 'id' => '203', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Конкурсы. Программы. Гранты', 'title' => 'Конкурсы. Программы. Гранты', 'url' => 'ads', 'parent' => '203', 'id' => '193', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Нормативные документы', 'title' => 'Нормативные документы', 'url' => 'konk_docs', 'parent' => '203', 'id' => '209', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Конференции', 'title' => 'Конференции', 'url' => 'conferences', 'parent' => '0', 'id' => '158', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Медиа', 'title' => 'Медиа', 'url' => '', 'parent' => '0', 'id' => '26', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Новости', 'title' => 'Новости', 'url' => 'news', 'parent' => '26', 'id' => '5', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Анонсы', 'title' => 'Анонсы', 'url' => 'anonses', 'parent' => '26', 'id' => '87', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Фотоальбомы', 'title' => 'Фотоальбомы', 'url' => 'albums', 'parent' => '26', 'id' => '27', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Стать партнером', 'title' => 'Стать партнером', 'url' => 'partnership', 'parent' => '156', 'id' => '187', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Видеозаписи', 'title' => 'Видеозаписи', 'url' => 'videos', 'parent' => '26', 'id' => '28', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Партнеры', 'title' => 'Партнеры', 'url' => 'partners', 'parent' => '0', 'id' => '156', 'out' => '0', 'target' => '0', ),
+		array('name' => 'Контакты', 'title' => 'Контактная информация', 'url' => 'contacts', 'parent' => '0', 'id' => '15', 'out' => '0', 'target' => '0', ),
+	);
+//	echo '<pre>';
+//print_r($menu);
+?>
